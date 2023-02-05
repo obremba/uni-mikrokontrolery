@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1031285812482",
+    "project_id": "mikrokontrolery-2cb28",
+    "storage_bucket": "mikrokontrolery-2cb28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031285812482:android:3cc206f8aafd7695ade61b",
+        "android_client_info": {
+          "package_name": "com.example.push_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031285812482-ko6iees8f5212orhq8ro704o2nngpouo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5PLSq21d_2ZqRyy48aOhYIzAIw2qMfMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031285812482-ko6iees8f5212orhq8ro704o2nngpouo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

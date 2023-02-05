@@ -1,0 +1,5 @@
+node_modules/
+dist/
+firebase_adminsdk.json
+status.json
+.DS_Store
