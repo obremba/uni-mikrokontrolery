@@ -50,8 +50,8 @@ class _MyHomePageState extends State<MyHomePage> {
   bool _notificationsActive = false;
   bool _loading = false;
 
-  final checkStateUrl = Uri.http('192.168.1.68:3000', 'status');
-  final changeStateUrl = Uri.http('192.168.1.68:3000', 'status/change');
+  final checkStateUrl = Uri.https('uni.morga.dev', 'status');
+  final changeStateUrl = Uri.https('uni.morga.dev', 'status/change');
 
   void _changeActiveState() {
     if (!_loading) {

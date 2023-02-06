@@ -9,7 +9,7 @@ export default function statusChecker(req, res, next) {
 
   const status = JSON.parse(fs.readFileSync(statusPath, 'utf8'));
   if (!status.active) {
-    res.status(200).json({ message: 'Push notifications for sensor are paused.' });
+    res.status(202).json({ message: 'Push notifications for sensor are paused.' });
   } else {
     next();
   }

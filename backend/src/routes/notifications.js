@@ -1,6 +1,6 @@
 import { Router } from 'express';
+import { admin } from '../app';
 import statusChecker from '../middlewares/statusChecker';
-import { admin } from '../server';
 
 const router = Router();
 
